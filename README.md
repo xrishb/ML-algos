@@ -2,18 +2,25 @@
 
 This repository contains implementations of various machine learning algorithms using scikit-learn, pandas, and numpy.
 
-Each file demonstrates a different algorithm and can be run independently (currently covers supervised and unsupervised algorithms):
+## Supervised Learning
+
+Each file demonstrates a different algorithm and can be run independently:
 
 - `linear_regression.py`: Linear Regression implementation
 - `logistic_regression.py`: Logistic Regression for classification
 - `decision_tree.py`: Decision Tree classifier
 - `random_forest.py`: Random Forest ensemble method
-- `kmeans_clustering.py`: K-means clustering
 - `svm_classifier.py`: Support Vector Machine
 - `naive_bayes.py`: Naive Bayes classifier
+
+## Unsupervised Learning
+
+- `kmeans_clustering.py`: K-means clustering
 - `pca_dimension_reduction.py`: Principal Component Analysis
 
-### ***reinforcement learning, semi-supervised learning algortihms to be added soon***
+## Reinforcement Learning
+
+- `reinforcement_learning/q_learning.py`: Q-Learning algorithm implementation with a GridWorld environment
 
 ## Requirements
 
@@ -35,4 +42,5 @@ pip install -r requirements.txt
 Each algorithm can be run independently:
 
 ```
-python linear_regression.py 
+python linear_regression.py
+python reinforcement_learning/q_learning.py
